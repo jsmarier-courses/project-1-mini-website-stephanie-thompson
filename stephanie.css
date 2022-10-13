@@ -21,12 +21,12 @@ body {
    position: absolute;
    padding: 0px 0px 0px 20px;
    z-index: 3;
-   color: #131359;
+   color: darkgoldenrod;
    font-weight: bold;
 }
 
 .top-menu {
-   background-color: #131359;
+   background-color: black;
    position: absolute;
    top: 85px;
    z-index: 2;
@@ -51,7 +51,7 @@ body {
 }
 
 .top-menu li a:hover {
-    background-color: red;
+    background-color: lightcoral;
 }
 
 img {  
@@ -60,7 +60,7 @@ img {
     }  
 
 .current-page-link {
-    background-color: #db0e0e;
+    background-color: lightcoral;
 }
 
 .page-content {
@@ -94,7 +94,7 @@ img {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    background-color:#3f3c3c;
+    background-color:black;
 }
 
 .footer-content {
@@ -106,3 +106,20 @@ img {
     color: white;
     text-decoration: none;
 }
+table, th, td {
+    border: 1px solid;
+  }
+  table {
+    width: 100%;
+  }
+  
+  th {
+    height: 70px;
+  }
+  td {
+    text-align: center;
+  }
+  th {
+    background-color: lightgoldenrodyellow;
+    color: black;
+  }
