@@ -1,8 +1,8 @@
 html, body {
     margin: 0;
     padding: 0px 0px 0px 0px;
-    font-family: 'Roboto', sans-serif;
-    color: #666666;
+    font-family: 'Arial', sans-serif;
+    color: black;
 }
 
 body {
@@ -36,7 +36,7 @@ body {
 .top-menu ul {
     list-style-type: none;
     font-size: 20px; 
-    float: right;
+    float: left;
     margin-right: 20px;
 }
 
@@ -78,7 +78,7 @@ img {
 }
 
 .main-section h1, .main-section h2 {
-    color: black;
+    color: darkblue;
 }
 
 .main-section figure, .main-section img {
@@ -123,3 +123,7 @@ table, th, td {
     background-color: lightgoldenrodyellow;
     color: black;
   }
+  a:hover {
+    color: aquamarine;
+}
+tr:hover {background-color: lightcoral;}
